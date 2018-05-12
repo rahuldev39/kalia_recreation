@@ -1,0 +1,9 @@
+.nav-btn {
+    border: 2px solid white;
+    padding: 6px 7px;
+    border-radius: 4px;
+    color: white;
+}
+.tp-caption .largebtn{
+  color: white !important
+}
