@@ -2339,11 +2339,7 @@ ul#cart-sidebar {
 }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.bottom-banner-img {
-	height: 240px;
-	width: 360px;
-	float: none;
-}
+
 .bottom-banner-img h3 {
 	margin-top: 90px;
 	font-size: 25px;
@@ -2357,10 +2353,7 @@ ul#cart-sidebar {
 .bottom-banner-img .banner-overly.last {
 	height: 145px;
 }
-.bottom-banner-img.last {
-	height: 144px;
-	width: 450px;
-}
+
 .bottom-banner-img.last h3 {
 	margin-top: 30px;
 	font-size: 18px;

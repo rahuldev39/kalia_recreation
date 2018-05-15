@@ -197,3 +197,18 @@ dt.complete a {
     font-weight: 600;
     text-transform: uppercase;
 }
+@media (max-width: 992px)
+{
+.container {
+    width: auto;
+}
+}
+
+@media (max-width: 768px)
+{
+  .jtv-banner-box.banner-inner .jtv-content-text {
+      top: 18%;
+      text-align: center;
+      left: 0px;
+  }
+}
