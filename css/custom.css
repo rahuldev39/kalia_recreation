@@ -170,3 +170,30 @@ filter:blur(7px);
     -webkit-transition: width 350ms;
     transition: width 350ms;
 }
+.step-content{
+  display: none;
+  opacity: 0;
+  transition: all ease-in-out 300ms;
+}
+.step-content.in{
+  display: block;
+  opacity: 1
+}
+.step-content table{
+  margin-top: 10px
+}
+.step-content table .cart_product img {
+    max-width: 83px !important;
+}
+.checkout-page h4.checkout-sep.active{
+  color: #f58220;
+}
+dt.complete a {
+    color: #f58220;
+    border: 1px solid #f58220;
+    padding: 3px 5px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}

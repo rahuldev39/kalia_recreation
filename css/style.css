@@ -4196,23 +4196,23 @@ a.ads1 img {
 	margin-bottom: 18px
 }
 button.button {
-	display: inline-block;
-	border: 0;
-	background: #fed700;
-	padding: 6px 16px;
-	font-size: 12px;
-	border: 2px solid #fed700;
-	font-weight: bold;
-	text-align: center;
-	white-space: nowrap;
-	color: #333e48;
-	font-weight: normal;
-	transition: all 0.3s linear;
-	-moz-transition: all 0.3s linear;
-	-webkit-transition: all 0.3s linear;
-	-webkit-border-radius: 50px;
-	-moz-border-radius: 50px;
-	border-radius: 50px
+    display: inline-block;
+    border: 0;
+    background: #00a552;
+    padding: 6px 16px;
+    font-size: 12px;
+    border: 2px solid #00a552;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    color: #ffffff;
+    font-weight: normal;
+    transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
 }
 button.button:hover {
 	background: #333e48;
@@ -4593,12 +4593,12 @@ button span {
 	border-bottom: 1px #eee solid;
 }
 .sidebar-bar-title h3 {
-	font-size: 14px;
-	letter-spacing: 1px;
-	border-bottom: 2px #fed700 solid;
-	display: inline-block;
-	margin-bottom: -1px;
-	padding-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-bottom: 3px #00a552 solid;
+    display: inline-block;
+    margin-bottom: -1px;
+    padding-bottom: 10px;
 }
 /*24.3 product price range*/
 
@@ -6475,12 +6475,17 @@ p.note {
 	list-style: none;
 }
 .checkout-page h4.checkout-sep {
-	text-transform: uppercase;
-	font-size: 14px;
-	border-bottom: 1px #eaeaea solid;
-	line-height: normal;
-	padding: 0 0 12px;
-	margin-bottom: 12px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 1px #eaeaea solid;
+    line-height: normal;
+    padding: 12px 0 12px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.checkout-page h4.checkout-sep:hover {
+    color: #f58220;
+    cursor: pointer;
 }
 .checkout-page h4.checkout-sep.last {
 	border: none;
@@ -6502,7 +6507,8 @@ p.note {
 	margin-top: 5px;
 }
 .checkout-page .box-border .fa {
-	line-height: inherit;
+    line-height: inherit;
+    font-size: 18px;
 }
 .checkout-page .box-border input[type="radio"] {
 	margin-right: 10px;
