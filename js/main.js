@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
             jQuery('#myModal').modal({
             keyboard: false,
            backdrop:false
-          }); 
+          });
 
 
 /******************************************
@@ -22,10 +22,10 @@ jQuery(document).ready(function() {
 ******************************************/
 
 jQuery("#featured-slider .slider-items").owlCarousel({
-		items: 3,
-		itemsDesktop: [1024, 3],
-		itemsDesktopSmall: [900, 2],
-		itemsTablet: [640, 2],
+		items: 4,
+		itemsDesktop: [1024, 4],
+		itemsDesktopSmall: [900, 3],
+		itemsTablet: [640, 3],
 		itemsMobile: [390, 1],
 		navigation: !0,
 		navigationText: ['<a class="flex-prev"></a>', '<a class="flex-next"></a>'],
@@ -40,10 +40,10 @@ jQuery("#featured-slider .slider-items").owlCarousel({
 ******************************************/
 
 	jQuery("#top-sellers-slider .slider-items").owlCarousel({
-		items: 3,
-		itemsDesktop: [1024, 3],
-		itemsDesktopSmall: [900, 2],
-		itemsTablet: [640, 2],
+		items: 4,
+		itemsDesktop: [1024, 4],
+		itemsDesktopSmall: [900, 3],
+		itemsTablet: [640, 3],
 		itemsMobile: [390, 1],
 		navigation: !0,
 		navigationText: ['<a class="flex-prev"></a>', '<a class="flex-next"></a>'],
@@ -57,9 +57,9 @@ jQuery("#featured-slider .slider-items").owlCarousel({
 ******************************************/
 
 	jQuery("#special-products-slider .slider-items").owlCarousel({
-		items: 4,
-		itemsDesktop: [1024, 4],
-		itemsDesktopSmall: [900, 3],
+		items: 3,
+		itemsDesktop: [1024, 3],
+		itemsDesktopSmall: [900, 2],
 		itemsTablet: [640, 2],
 		itemsMobile: [390, 1],
 		navigation: !0,
@@ -69,6 +69,23 @@ jQuery("#featured-slider .slider-items").owlCarousel({
 		autoPlay: false
 	}),
 
+
+  /******************************************
+  	Special products slider
+  ******************************************/
+
+  	jQuery("#category-slider .slider-items").owlCarousel({
+  		items: 4,
+  		itemsDesktop: [1024, 4],
+  		itemsDesktopSmall: [900, 3],
+  		itemsTablet: [640, 3],
+  		itemsMobile: [390, 1],
+  		navigation: !0,
+  		navigationText: ['<a class="flex-prev"></a>', '<a class="flex-next"></a>'],
+  		slideSpeed: 500,
+  		pagination: !1,
+  		autoPlay: false
+  	}),
 
 
 
@@ -243,7 +260,7 @@ jQuery("#upsell-product-slider .slider-items").owlCarousel({
 		singleItem: true,
         transitionStyle: "goDown"
 	}),
-	
+
 /******************************************
 	testimonials slider about
 ******************************************/
@@ -406,5 +423,3 @@ if (typeof Typist == 'function') {
 }
 
 })
-
-
